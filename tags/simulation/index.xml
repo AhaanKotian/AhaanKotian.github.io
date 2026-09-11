@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation | Ahaan Kotian</title>
+    <link>https://AhaanKotian.github.io/tags/simulation/</link>
+      <atom:link href="https://AhaanKotian.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simulation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>A Simulation Framework for Surgical Subtask Automation</title>
+      <link>https://AhaanKotian.github.io/publication/surgical-subtask-automation/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://AhaanKotian.github.io/publication/surgical-subtask-automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial Potential Field Planner for Multi-Robot Simulation</title>
+      <link>https://AhaanKotian.github.io/project/apf-multi-robot-simulation/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://AhaanKotian.github.io/project/apf-multi-robot-simulation/</guid>
+      <description>&lt;p&gt;Simulated multi-robot coordination in Gazebo using an Artificial Potential Field (APF) planner to achieve arbitrary formations around a target pose. Architected the simulation framework and optimized URDF models for efficient execution of multiple Volta robots in low-resource environments.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

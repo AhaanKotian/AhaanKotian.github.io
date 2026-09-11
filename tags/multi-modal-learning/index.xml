@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Modal Learning | Ahaan Kotian</title>
+    <link>https://AhaanKotian.github.io/tags/multi-modal-learning/</link>
+      <atom:link href="https://AhaanKotian.github.io/tags/multi-modal-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-Modal Learning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>MAMMOTH: A Multi-Modal End-to-End Policy for Off-Road Mobility Robust to Missing Modality</title>
+      <link>https://AhaanKotian.github.io/publication/mammoth/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://AhaanKotian.github.io/publication/mammoth/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

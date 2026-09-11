@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Hugo Academic CV Theme</title>
-    <link>http://localhost:4321/project/</link>
-      <atom:link href="http://localhost:4321/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | Ahaan Kotian</title>
+    <link>https://AhaanKotian.github.io/project/</link>
+      <atom:link href="https://AhaanKotian.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:4321/media/icon_hu7729264130191091259.png</url>
-      <title>Projects</title>
-      <link>http://localhost:4321/project/</link>
-    </image>
-    
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Pandas</title>
-      <link>http://localhost:4321/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <title>Generative Deep Learning for Drug Discovery</title>
+      <link>https://AhaanKotian.github.io/project/generative-dl-drug-discovery/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://AhaanKotian.github.io/project/generative-dl-drug-discovery/</guid>
+      <description>&lt;p&gt;Generated novel chemical compounds for drug discovery targeting inhibition of Alzheimer&amp;rsquo;s disease progression. Sourced chemical data from ChemBL in SMILES syntax, designed a custom tokeniser, and used an improved LSTM model to achieve 83.50% validation accuracy, generating 4 valid molecules verified with RDKit.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>PyTorch</title>
-      <link>http://localhost:4321/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <title>Visual Question Answering for Autonomous Driving</title>
+      <link>https://AhaanKotian.github.io/project/vqa-autonomous-driving/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://AhaanKotian.github.io/project/vqa-autonomous-driving/</guid>
+      <description>&lt;p&gt;Implemented a Visual Question Answering (VQA) pipeline to evaluate the scene understanding capabilities of diverse Vision-Language Models (VLMs) in autonomous driving contexts. Curated and pre-processed the DriveLM dataset, and fine-tuned SmolVLM and Qwen2.5-VL-3B-Instruct using LoRA and QLoRA, attaining exact-match accuracy of 56.68% and 65.78% respectively on unseen test data.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>scikit-learn</title>
-      <link>http://localhost:4321/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <title>Artificial Potential Field Planner for Multi-Robot Simulation</title>
+      <link>https://AhaanKotian.github.io/project/apf-multi-robot-simulation/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://AhaanKotian.github.io/project/apf-multi-robot-simulation/</guid>
+      <description>&lt;p&gt;Simulated multi-robot coordination in Gazebo using an Artificial Potential Field (APF) planner to achieve arbitrary formations around a target pose. Architected the simulation framework and optimized URDF models for efficient execution of multiple Volta robots in low-resource environments.&lt;/p&gt;</description>
     </item>
     
   </channel>
