@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Hugo build lock (regenerated on every build)
+.hugo_build.lock
+
+# Hugo's default publish dir. This repo publishes the built site to the
+# repo ROOT instead (see build.sh), so a `public/` folder here would just
+# be a stray duplicate copy of the site. Never commit it.
+/public/
+
+# Local Hugo binary, if you drop one in the repo instead of on your PATH
+/hugo

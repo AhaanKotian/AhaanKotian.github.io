@@ -70,13 +70,5 @@
       <description>&lt;p&gt;Simulated multi-robot coordination in Gazebo using an Artificial Potential Field (APF) planner to achieve arbitrary formations around a target pose. Architected the simulation framework and optimized URDF models for efficient execution of multiple Volta robots in low-resource environments.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>Experience</title>
-      <link>https://AhaanKotian.github.io/experience/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://AhaanKotian.github.io/experience/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
