@@ -1,0 +1,21 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+{{ $query := where site.RegularPages "Section" "in" $block.content.filters.folders }}
+{{ $query = sort $query "Date" "desc" }}
+
+<div class="research-publications max-w-screen-lg mx-auto">
+  <div class="research-introduction max-w-prose mx-auto">
+    <div class="minimal-section-heading"><h2>{{ $block.content.title | emojify }}</h2></div>
+    <div class="prose prose-slate lg:prose-xl dark:prose-invert">{{ $text }}</div>
+  </div>
+
+  <div class="research-publications-list">
+    {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) }}
+    {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" ($block.design.view | default "article-grid") "config" $config) }}
+    {{ range $query }}
+      {{ partial "functions/render_view" (dict "page" $block "item" . "view" ($block.design.view | default "article-grid") "config" $config) }}
+    {{ end }}
+    {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" ($block.design.view | default "article-grid") "config" $config) }}
+  </div>
+</div>

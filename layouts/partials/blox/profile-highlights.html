@@ -1,0 +1,28 @@
+{{ $block := .wcBlock }}
+
+<div class="profile-highlights max-w-screen-lg mx-auto px-6">
+  <div>
+    <div class="minimal-section-heading"><h2>At a glance</h2></div>
+    <ul class="glance-list">
+      {{ range $block.content.glance }}
+      <li>
+        <span class="glance-label">{{ .label }}</span>
+        <span class="glance-value">{{ .value }}</span>
+        <span class="glance-detail">{{ .detail }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <div>
+    <div class="minimal-section-heading"><h2>News</h2></div>
+    <ol class="news-list">
+      {{ range $block.content.news }}
+      <li{{ with .current }} class="is-current"{{ end }}>
+        <time>{{ .date }}</time>
+        <p>{{ .text }}</p>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</div>

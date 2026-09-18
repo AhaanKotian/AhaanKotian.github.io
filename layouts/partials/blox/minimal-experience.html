@@ -1,0 +1,28 @@
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+{{ $person := site.GetPage (printf "/authors/%s" $author) }}
+
+{{ if not $person }}
+  {{ errorf "Could not find an author page at `/authors/%s`." $author }}
+{{ end }}
+
+<div class="minimal-experience max-w-screen-lg mx-auto px-6">
+  <div class="minimal-section-heading"><h2>{{ $block.content.title | default "Experience" }}</h2></div>
+  <ol class="minimal-experience-list">
+    {{ range $person.Params.work }}
+    <li>
+      <time>
+        {{ with .date_start }}{{ (time .) | time.Format "2006" }}{{ end }}
+        {{ with .date_end }} – {{ (time .) | time.Format "2006" }}{{ else }} – Present{{ end }}
+      </time>
+      <div>
+        <h3>
+          {{ .position }}{{ with .company_name }} · {{ end }}
+          {{ if .company_url }}<a href="{{ .company_url }}" target="_blank" rel="noopener">{{ .company_name }}</a>{{ else }}{{ .company_name }}{{ end }}
+        </h3>
+        <p>{{ .summary }}</p>
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+</div>
