@@ -6,7 +6,7 @@ sections:
 - block: resume-biography-3
   content:
     button:
-      text: Download CV
+      text: View CV
       url: https://drive.google.com/file/d/18puzgt0tfvpZYk-wnqvfysl5HGL4aydx/view?usp=sharing
     text: ""
     username: admin
@@ -25,33 +25,30 @@ sections:
   content:
     glance:
     - label: Current
-      value: Researcher
+      value: Pre-Doctoral Researcher
       detail: Indian Institute of Science
     - label: Education
       value: BTech in Computer Engineering
       detail: K.J. Somaiya School of Engineering · 2025
     - label: Focus
-      value: Off-road autonomous navigation
-      detail: Multi-modal learning · Motion planning · Robot learning
+      value: Learning-based Navigation policies
+      detail: Multi-modal learning · Embodied AI · Robot learning
+    - label: Thinking about
+      value: How do we get navigation policies to take inputs from multiple sensors publishing at different Hz and run reliably?
+      detail: Multi-modal representation learning · long-horizon decision making · out-of-distribution generalization
     news:
-    - date: 2026
+    - date: September 2026
+      text: Heading to IROS 2026 to present MAMMOTH.
+      current: true
+    - date: July 2026
       text: MAMMOTH was accepted to IROS 2026 as a first-author paper.
-      current: true
-    - date: 2026
-      text: MS-DOTT, a large-scale multi-modal off-road dataset, was submitted to RAAI 2026.
-      current: true
     - date: Jun 2025
-      text: Joined the Indian Institute of Science as a researcher in autonomous navigation.
-    - date: 2025
-      text: Built and deployed end-to-end navigation models for an all-terrain vehicle at IISc.
+      text: Joined the AIRL @ Indian Institute of Science as a researcher in autonomous navigation.
   design:
     css_class: profile-highlights-section
 - block: research-publications
   content:
-    text: "I'm a researcher at the Indian Institute of Science, working on multi-modal
-      end-to-end navigation policies for off-road autonomous mobility. My research
-      interests include motion planning, multi-modal sensor fusion, and robot learning
-      for outdoor, in-the-wild navigation.\n\nPlease reach out to collaborate \U0001F603"
+    text: "I'm a pre-doctoral researcher at the Indian Institute of Science, working on multi-modal end-to-end navigation policies for outdoor autonomous mobility. My research focuses on the intersection of machine learning and robotics, with an emphasis on large-scale robot learning, out-of-distribution generalization, long-horizon decision making, multi-modal representation learning, and continual learning.\n\nPlease reach out to collaborate! \U0001F603"
     title: "Research & Publications"
     filters:
       folders:

@@ -9,13 +9,13 @@ education:
 first_name: Ahaan
 highlight_name: true
 interests:
-- Off-Road Autonomous Navigation
+- Robot Learning & Embodied AI
 - Multi-Modal Deep Learning
-- Motion Planning
+- Long-horizon decision making
 last_name: Kotian
 organizations:
-- name: Indian Institute of Science
-  url: https://iisc.ac.in/
+- name: Artifical Intelligence & Robotics Lab @ Indian Institute of Science
+  url: https://airl-iisc.in/home
 profiles:
 - icon: at-symbol
   label: Email Me
@@ -35,19 +35,19 @@ role: Researcher, Indian Institute of Science
 superuser: true
 title: Ahaan Kotian
 work:
-- company_name: Indian Institute of Science
-  company_url: https://iisc.ac.in/
+- company_name: Artifical Intelligence & Robotics Lab @ Indian Institute of Science
+  company_url: https://airl-iisc.in/home
   date_start: "2025-06-01"
   position: Researcher
-  summary: "Developing robust multi-modal navigation policies for off-road mobility, including MAMMOTH (IROS 2026) and the MS-DOTT traversability dataset."
-- company_name: Indian Institute of Science
-  company_url: https://iisc.ac.in/
+  summary: "Worked on learned multi-modal navigation policies for outdoor, in-the-wild navigation. Developed robust multi-modal navigation policies for off-road mobility, including MAMMOTH (IROS 2026) and the MS-DOTT traversability dataset. (RAAI 2026)"
+- company_name: Artifical Intelligence & Robotics Lab @ Indian Institute of Science
+  company_url: https://airl-iisc.in/home
   date_end: "2025-06-01"
   date_start: "2025-01-01"
   position: Research Intern
-  summary: "Built and tested end-to-end navigation models from CARLA simulation to an all-terrain vehicle, including a Nav2 and 3D-LiDAR autonomy stack."
+  summary: "Built and tested end-to-end navigation policies from CARLA simulation to an all-terrain vehicle, including a Nav2 and 3D-LiDAR autonomy stack."
 - company_name: Indian Institute of Technology, Bombay
-  company_url: https://www.iitb.ac.in/
+  company_url: https://sites.google.com/view/arms-lab/home
   date_end: "2024-07-01"
   date_start: "2024-05-01"
   position: Research Intern
@@ -123,4 +123,6 @@ skills:
 
 ## About Me
 
-Ahaan Kotian is a researcher at the Indian Institute of Science, working on multi-modal end-to-end navigation policies for off-road autonomous mobility. His research interests include motion planning, multi-modal sensor fusion, and robot learning for outdoor, in-the-wild navigation. He previously interned at IISc and IIT Bombay, working on autonomous navigation stacks and mobile-manipulator motion planning, and led the Driverless Systems team at Orion Racing India.
+*I'm thinking about how messages from different sensors publishing at different Hz can be aligned in latent spaace and fused to get synergistic information.*
+
+Hi! I am a pre-doctoral researcher at the AIRL@Indian Institute of Science, working on multi-modal end-to-end navigation policies for autonomous outdoor mobility. My research focuses on the intersection of machine learning and robotics, with an emphasis on large-scale robot learning, out-of-distribution generalization, long-horizon decision making, multi-modal representation learning, and continual learning. I previously interned at IISc and IIT Bombay, working on autonomous navigation stacks and mobile-manipulator motion planning, and led the Driverless Systems team at Orion Racing India.
