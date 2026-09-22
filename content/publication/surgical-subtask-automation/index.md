@@ -13,7 +13,7 @@ publication: Accepted, RCAAI 2024
 publication_short: Accepted, RCAAI 2024
 publication_types:
 - paper-conference
-summary: A simulation framework for automating surgical subtasks.
+summary: A simulation framework for surgical subtasks automation.
 tags:
 - Robotics
 - Simulation

@@ -8,7 +8,7 @@ authors:
 date: "2026-03-01T00:00:00Z"
 featured: false
 image:
-  caption: "Image credit: Wu et al., Journal of Sensors, CC BY 4.0 — placeholder thumbnail"
+  caption: "MS-DOTT graphical abstract"
   focal_point: ""
   preview_only: false
 publication: Under Submission, RAAI 2026

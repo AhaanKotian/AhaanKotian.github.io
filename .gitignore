@@ -11,3 +11,5 @@
 
 # Local Hugo binary, if you drop one in the repo instead of on your PATH
 /hugo
+
+CONTENT_GUIDE.md
